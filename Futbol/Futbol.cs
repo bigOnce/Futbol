@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using ACE;
 
 namespace Futbol
 {
@@ -15,7 +16,7 @@ namespace Futbol
 					Children = {
 						new Label {
 							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
+							Text = ResourceLoader.LocalizeString ("string_text_1", "")
 						}
 					}
 				}

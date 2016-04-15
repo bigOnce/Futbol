@@ -27,7 +27,7 @@ namespace ACE
 
 			var netLanguage = Locale();
 			// Platform-specific
-			ResourceManager temp = new ResourceManager("Football.Resource.LocalizableString", typeof(ResourceLoader).GetTypeInfo().Assembly);
+			ResourceManager temp = new ResourceManager("Futbol.Resources.LocalizableString", typeof(ResourceLoader).GetTypeInfo().Assembly);
 			Debug.WriteLine("Localize " + key);
 			string result = temp.GetString(key, new CultureInfo(netLanguage));
 
