@@ -10,17 +10,7 @@ namespace Futbol
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new ContentPage {
-				Content = new StackLayout {
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							XAlign = TextAlignment.Center,
-							Text = ResourceLoader.LocalizeString ("string_text_1", "")
-						}
-					}
-				}
-			};
+			MainPage = new HomePage ();
 		}
 
 		protected override void OnStart ()
