@@ -10,7 +10,7 @@ namespace Futbol
 		{
 
 			this.Master = new MenuPage ();
-			this.Detail = new KienPage ();
+			this.Detail = new GeneralPage ();
 
 		}
 	}
