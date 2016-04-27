@@ -39,15 +39,7 @@ namespace Futbol
 				BarTextColor = ColorDefine.ColorApp
 			};
 		}
-
-		public void NavigateTo (MenuItem menu)
-		{
-			Page displayPage = (Page) Activator.CreateInstance (menu.TargetType);
-
-			Detail = navigationPageWith (displayPage);
-
-			IsPresented = false;
-		}
+			
 	}
 }
 
