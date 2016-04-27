@@ -120,4 +120,10 @@
   <data name="string_text_1" xml:space="preserve">
     <value>This text for test</value>
   </data>
+   <data name="string_tab_video" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="string_tab_livescore" xml:space="preserve">
+    <value>Live Socre</value>
+  </data>
 </root>
