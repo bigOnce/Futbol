@@ -10,7 +10,7 @@ namespace Futbol
 		{
 			Content = new StackLayout { 
 				Children = {
-					new Label { Text = "Hello ContentPage" }
+
 				}
 			};
 		}

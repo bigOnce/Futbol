@@ -6,8 +6,20 @@ namespace Futbol
 {
 	public class MenuPage : ContentPage
 	{
+		public ListView Menu {
+			get;
+			set;
+		}
+
 		public MenuPage ()
 		{
+			Title = "asjdhasjkd";
+
+			Label labHeader = new Label () {
+				Text = "Hello, Forms!",
+				FontSize = Device.GetNamedSize (NamedSize.Large, typeof(Label))
+			};
+
 			// Assemble an array of NamedColor objects.
 			NamedColor[] namedColors = {
 				new NamedColor ("Aqua", Color.Aqua),
@@ -29,29 +41,18 @@ namespace Futbol
 			};
 
 			// Create ListView for the master page.
-			ListView listView = new ListView {
+			Menu = new ListView {
 				ItemsSource = namedColors
 			};
 
-			Title = "asjdhasjkd";
 			// Create the master page with the ListView.
 			Content = new StackLayout {
 				Children = {
-					listView
+					labHeader,
+					Menu
 				}
 			};
 
-//				// Define a selected handler for the ListView.
-//			listView.ItemSelected += (sender, args) => {
-//				// Set the BindingContext of the detail page.
-//				this.Detail.BindingContext = args.SelectedItem;
-//
-//				// Show the detail page.
-//				this.IsPresented = false;
-//			};
-
-			//Initialize the ListView selection.
-			listView.SelectedItem = namedColors [0];
 		}
 	}
 }
