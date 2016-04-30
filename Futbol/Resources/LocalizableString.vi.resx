@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="string_tab_livescore" xml:space="preserve">
-    <value>Ti so</value>
+    <value>Tỉ số</value>
   </data>
   <data name="string_tab_video" xml:space="preserve">
     <value>Videos</value>
