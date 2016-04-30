@@ -10,7 +10,7 @@ namespace Futbol
 		public RootPage ()
 		{
 
-			Title = "asjdhasjkd";
+			Title = ResourceLoader.LocalizeString ("string_tab_video", "");
 
 			var FirstPage = new HomePage ();
 //			FirstPage.Icon = "icon.png";

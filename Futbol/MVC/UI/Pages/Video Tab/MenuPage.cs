@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using ACE;
 
 namespace Futbol
 {
@@ -11,9 +12,10 @@ namespace Futbol
 			set;
 		}
 
-		public MenuPage ()
+		public MenuPage () 
 		{
-			Title = "asjdhasjkd";
+			Title = ResourceLoader.LocalizeString ("string_back", "");
+
 
 //			Label labHeader = new Label () {
 //				Text = "Hello, Forms!",

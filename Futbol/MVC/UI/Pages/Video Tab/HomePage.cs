@@ -25,7 +25,7 @@ namespace Futbol
 
 		public NavigationPage navigationPageWith (Page p) {
 			return new NavigationPage (p) {	
-				BarTextColor = ColorDefine.ColorApp
+				BarTextColor = UIHelper.ColorPrimary
 			};
 		}
 			
