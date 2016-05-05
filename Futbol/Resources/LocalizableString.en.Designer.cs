@@ -64,5 +64,11 @@ namespace Futbol {
                 return ResourceManager.GetString("string_title", resourceCulture);
             }
         }
+        
+        internal static string string_back {
+            get {
+                return ResourceManager.GetString("string_back", resourceCulture);
+            }
+        }
     }
 }

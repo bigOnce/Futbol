@@ -8,11 +8,14 @@ namespace Futbol
 	{
 		public GeneralPage ()
 		{
+			Title = "adad";
+
 			Content = new StackLayout { 
 				Children = {
 
 				}
 			};
+
 		}
 	}
 }

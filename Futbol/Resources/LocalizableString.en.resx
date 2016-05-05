@@ -126,4 +126,7 @@
   <data name="string_title" xml:space="preserve">
     <value>Title</value>
   </data>
+  <data name="string_back" xml:space="preserve">
+    <value>Back</value>
+  </data>
 </root>

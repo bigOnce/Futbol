@@ -22,6 +22,9 @@ namespace Futbol
 
 			Children.Add (FirstPage);
 			Children.Add (SecondPage);
+
+			APIRequestManager.TestGetJSONRequest ();
+
 		}
 	}
 }
