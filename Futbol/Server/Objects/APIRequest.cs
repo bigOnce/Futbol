@@ -10,11 +10,11 @@ namespace Futbol
 	public class APIRequest
 	{
 
-		public static String Get (String url) {
+		public static string Get (string url) {
 			return (GetAsync (url)).Result;
 		}
 
-		public static async Task<String> GetAsync (String url) {
+		public static async Task<string> GetAsync (string url) {
 			return await (new HttpClient ()).GetStringAsync (url);
 		}
 			
