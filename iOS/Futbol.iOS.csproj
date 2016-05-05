@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
     <AssemblyName>FutboliOS</AssemblyName>
     <CodesignKey>iPhone Developer</CodesignKey>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <Optimize>false</Optimize>
@@ -51,13 +54,24 @@
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
+<<<<<<< Updated upstream
     <AssemblyName>FutboliOS</AssemblyName>
+=======
+    <AssemblyName>Futbol.iOS</AssemblyName>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchArch>ARMv7</MtouchArch>
+>>>>>>> Stashed changes
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>false</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <WarningLevel>4</WarningLevel>
+<<<<<<< Updated upstream
     <AssemblyName>FutboliOS</AssemblyName>
+=======
+    <AssemblyName>Futbol.iOS</AssemblyName>
+    <MtouchArch>ARMv7</MtouchArch>
+>>>>>>> Stashed changes
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
